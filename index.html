@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            HTML5 레이아웃
+        </title>
+        <style>
+            *{
+                padding:0px;
+                margin:0px;
+            }
+            li{
+                list-style-type: none;
+            }
+            .clear{clear:both;}
+            </style>
+            <style>
+            header{
+                width:90%;
+                height:100px;
+                margin:10px 20px;
+                border: solid 0px red;
+                border-bottom: solid 2px gray;
+
+            }
+            #logo{margin-top:30px;
+            border-bottom: dotted 2px gray;
+        float:left;}
+        #top{
+            float:right;
+            margin: 30px 0 0;
+        }
+            nav{
+                width: 80%;
+                margin: 20px 50px;
+                border: solid 0px orange;
+            }
+            nav li{
+                float:left;
+                margin: 20px 30px;
+            }
+            section{
+                width: 52%;
+                height: 60px;
+                float: left;
+                margin-left: 80px;
+                margin-top: 20px;
+                border: solid 0px purple;
+            }
+            aside{
+                width: 200px;
+                height: 600px;
+                float: left;
+                margin-left:20px;
+                margin-top:20px;
+                border: solid 0px blue;
+
+            }
+            footer{
+                width: 90%;
+                height: 100px;
+                float: left;
+                margin-left:20px;
+                margin-top:30px;
+                border: solid 0px green;
+                border-top: solid 2px gray;
+            }
+            aside li{
+                margin-bottom: 70px;
+            }
+            #address{
+                float:left;
+                margin: 30px 0 0 10px;
+            }
+            #customer{
+                float:right;
+                margin: 30px 0 0 500px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div>
+        <header>
+            <div id="logo">
+                신뢰로 보답하는 루바토 손해보험
+            </div>
+            <div id="top">
+                로그인 | 회원가입 | 사이트 맵 | 회사소개
+            </div>
+            </header>
+            </div>
+            <div>
+        <nav>
+         <ul>
+            <li>손해보험 상식</li>
+            <li>회사소개</li>
+            <li>보험상품 안내</li>
+            <li>마이페이지</li>
+            <li>고객센터</li>
+            <li>보험료 안내</li>
+            
+         </ul>
+        </nav>
+        </div>
+        
+        <div>
+        <section>
+
+        <img src="IMG_5000.PNG">
+        </section>
+        
+        <div>
+        <aside>
+            <ul>
+                <li>보험료 계산하기</li>
+                <li>손해보험 FAQ</li>
+                </ul>
+        </div>
+        </aside>
+        </div>
+        <div class="clear">
+        <footer>
+            <div id="address">
+            대표 이사: 김가천 | 사업자 등록번호 : 123-12-12345
+            </div>
+            <div id="customer">
+                고객센터 1588-1234
+                </div>
+        </footer>
+        </div>
+        
+    </body>
+</html>
